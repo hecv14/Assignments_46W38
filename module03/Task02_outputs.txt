@@ -1,0 +1,14 @@
+inputs:
+x = 3 
+y = None
+outputs:
+x = 13
+y = 26
+
+inputs:
+x = 30 
+y = None
+outputs:
+x = 30
+y = 30
+
