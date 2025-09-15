@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Task 3 is a simple script to find max and min values in a list. Use of print,
 input, while, if, else, for, len and append is illustrated.
@@ -63,3 +61,4 @@ else:
             min_val = element
 
 print(f"The minimal number is: {min_val}\nThe maximal number is: {max_val}")
+# %%
