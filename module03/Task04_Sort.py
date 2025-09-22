@@ -8,7 +8,7 @@ def get_list(default_list=False):
         if user_input != "end":
             input_list.append(user_input)
     print(f'The list of numbers is: {input_list}')
-    return(input_list)
+    return input_list
 
 def get_max_min(input_list):
     """_get_max_min from a list of numbers define max and min_
@@ -26,7 +26,7 @@ def get_max_min(input_list):
             if  element < min_val:
                 min_val = element
     print(f"The minimal number is: {min_val}\nThe maximal number is: {max_val}")
-    return(min_val, max_val)
+    return min_val, max_val
 
 
 # %% sort
