@@ -53,8 +53,8 @@ def find_max(input_list, silent=True):
         print(f"The max. number is: {max_val}")
     return max_val
 
-def simple_sort(input_list, asc=True):
-    """simple_sort: simple sort function
+def sort_numbers(input_list, asc=True):
+    """sort_numbers: simple sort function
     Args:
         input_list (list): list of floats
         
