@@ -46,8 +46,8 @@ def get_max_min(input_list):
 # repeat as we populate a sorted list
 
 # debug list (no need to input it)
-input_list = [3, 0, -3, 2.22, -1000, 99]
-
+#input_list = [3, 0, -3, 2.22, -1000, 99]
+input_list = get_list()
 
 sorted_list = [] # starts empty
 numbers = input_list[:] # we need a copy
